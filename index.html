@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portfolio</title>
+
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+   <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class='bx bx-menu' id="menu-icon"></i>
+
+      <nav class="navbar">
+         <a href="#home">Home</a>
+         <a href="#about">About</a>
+         <a href="#services">Skills</a>
+         <a href="#portfolio">Portfolio</a>
+      </nav>
+   </header>
+
+   <section class="home" id="home">
+      <div class="home-content">
+         <h3>Привет. Меня зовут</h3>
+         <h1>Александр</h1>
+         <h3>Я <span class="multiple-text"></span></h3>
+         <p></p>
+         <div class="social-media">
+            <a target="_blank" href="https://t.me/ambdxt"><i class='bx bxl-telegram telegram' ></i></a>
+            <a target="_blank" href="https://github.com/AleksandrZa"><i class='bx bxl-github' ></i></a>
+            <a target="_blank" href="mailto:aleksandryre@gmail.com"><i class='bx bxl-gmail' ></i></i></a>
+            <!-- <a target="_blank" href="https://www.instagram.com/senpaialeksandr"><i class='bx bxl-instagram-alt' ></i></a> -->
+         </div>
+         <a target="_blank" href="https://hh.ru/resume/0509d3b0ff09e326b90039ed1f4a66554e396b" class="btn">Резюме на hh</a>
+      </div>
+
+      <div class="home-img">
+         <img src="images/pht.png" alt="me">
+         <div class="home-bg"></div>
+      </div>
+   </section>
+   <section class="about" id="about">
+      <div class="about-bg">
+         
+      </div>
+      <div class="about-img">
+         <img src="images/aaa.jpg" alt="me">
+      </div>
+
+      <div class="about-content">
+         <h2 class="heading">Обо <span>мне</span></h2>
+         <h3>Я начинающий Фронтенд разработчик</h3>
+         <p> Имею техническое образование в IT. Дополнительно прошел несколько онлайн курсов на udemy и GeekBrains по направлению frontend. Около двух лет верстаю и разрабатываю разные приложения на Js, React. Есть свой сайт для пополнения баланса Steam и несколько пэт-проектов. Сейчас в планах начать изучать Бэкенд и дальше практиковаться в Фронте.</p>
+         <a href="https://hh.ru/resume/0509d3b0ff09e326b90039ed1f4a66554e396b" class="btn">Резюме на hh</a>
+      </div>
+   </section>
+
+   <section class="services" id="services">
+      <h2 class="heading">Мои <span>навыки</span></h2>
+
+      <div class="services-container">
+         <div class="services-box">
+            <div class="services-icons">
+               <i class='bx bxl-css3'></i>
+               <i class='bx bxl-javascript' ></i>
+               <i class='bx bxl-react' ></i>
+            </div>
+            <h3>Технические навыки</h3>
+            <ul>
+               <li>HTML5, CSS3, SCSS</li>
+               <li>JavaScript</li>
+               <li>React (Классы, хуки)</li>
+               <li>Redux Toolkit</li>
+               <li>Axios + Fetch</li>
+            </ul>
+         </div>
+
+         <div class="services-box">
+            <i class='bx bxs-user' ></i>
+            <h3>Личные качества:</h3>
+            <ul>
+               <li>Коммуникабельность</li>
+               <li>Работа в команде</li>
+               <li>Стрессоустойчивость</li>
+               <li>Умение работать в режиме многозадачности</li>
+               <li>Умение находить информацию в интернете</li>
+            </ul>
+         </div>
+
+         <div class="services-box">
+            <i class='bx bxs-briefcase' ></i>
+            <h3>Прошлая профессия</h3>
+            <p>До вэб разработчки, я работал в продажах. Последнее место работы было в магазине 'M. video'. Достаточно успешно, участвовал в Программе Apple Master Club (попал в первые 100 человек по России). Был внутренним тренером. Считаю что этот опыт поможет мне в новой профессии.</p>
+         </div>
+
+      </div>
+   </section>
+
+   <section class="portfolio" id="portfolio">
+      <h2 class="heading">Последние <span>Проекты</span></h2>
+
+   <div class="portfolio-containet">
+      <div class="portfolio-box">
+         <img src="images/steamBot.png" alt="portfolio">
+         <div class="portfolio-layer">
+            <h4>Мой сайт</h4>
+            <p>Сайт для удобного и быстрого пополнения баланса на торговой площадке Steam.</p>
+            <a target="_blank" href="https://steambot.org/"><i class='bx bx-link-external' ></i></a>
+            <p>Еще в разработке</p>
+         </div>
+      </div>
+
+      <div class="portfolio-box">
+         <img src="images/ap.png" alt="portfolio">
+         <div class="portfolio-layer">
+            <h4>Магазин кроссовок</h4>
+            <p>Интернет магазин по продаже кроссовок. Бэкенд всё на том же mocapi. Pet-проект на React</p>
+            <a target="_blank" href="https://shoe-store-two.vercel.app/"><i class='bx bx-link-external' ></i></a>
+         </div>
+      </div>
+
+      <div class="portfolio-box">
+         <img src="images/game.jpeg" alt="portfolio">
+         <div class="portfolio-layer">
+            <h4>Игра "Найди пару"</h4>
+            <p>Простая игра "Найди пару". Тестовое задание на React для JetRuby.</p>
+            <a target="_blank" href="https://github.com/AleksandrZa/JetRuby"><i class='bx bx-link-external' ></i></a>
+         </div>
+      </div>
+
+      <div class="portfolio-box">
+         <img src="images/marvel.png" alt="portfolio">
+         <div class="portfolio-layer">
+            <h4>База знания по вселенной Marvel</h4>
+            <p>Сайт с апишкой по вселенной Marvel "developer.marvel.com". Pet-проект на React</p>
+            <a target="_blank" href="https://github.com/AleksandrZa/marvel"><i class='bx bx-link-external' ></i></a>
+         </div>
+      </div>
+
+      <div class="portfolio-box">
+         <img src="images/port.png" alt="portfolio">
+         <div class="portfolio-layer">
+            <h4>Простой сайт с красивым паралаксом</h4>
+            <a target="_blank" href="https://github.com/AleksandrZa/galary"><i class='bx bx-link-external' ></i></a>
+         </div>
+      </div>
+
+      <div class="portfolio-box">
+         <img src="images/pizza.png" alt="portfolio">
+         <div class="portfolio-layer">
+            <h4>Магазин пицц</h4>
+            <p>Интернет магазин с продажей моих любимых пицц) Бэкенд на mockapi.io. Pet-проект.</p>
+            <p>Еще в разработке</p>
+            <!-- <a target="_blank" href="#"><i class='bx bx-link-external' ></i></a> -->
+         </div>
+      </div>
+
+   </div>
+   </section>
+
+   <footer class="footer">
+
+      <div class="footer-iconTop">
+         <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+      </div>
+   </footer>
+
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <script src="js/script.js"></script>
+</body>
+</html>
